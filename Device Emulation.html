@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Data</title>
+</head>
+<body>
+    <h1>Input Data</h1>
+    <form action="http://localhost/DataInsert.php" method="post">
+        <label for="temperature">Temperature:</label>
+        <input type="number" step="0.01" name="temperature" value="37.5" required><br>
+        
+        <label for="pulseRate">Pulse Rate:</label>
+        <input type="number" step="0.01" name="pulseRate" value="80" required><br>
+        
+        <label for="spo2">SPO2:</label>
+        <input type="number" name="spo2" value="98" required><br>
+        
+        <label for="wearStatus">Wear Status:</label>
+        <select name="wearStatus" required>
+            <option value="1" selected>Worn</option>
+            <option value="0">Not Worn</option>
+        </select><br>
+        
+        <label for="Battery">Battery:</label>
+        <input type="number" step="0.01" name="Battery" value="100" required><br>
+        
+        <input type="hidden" name="DevID" value="a0:76:4e:45:56:30">
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
