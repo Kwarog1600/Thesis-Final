@@ -1,0 +1,10 @@
+esp 32 board manager from :
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+ using xiao esp32 c3
+
+libraries:
+Adafruit_BusIO
+Adafruit_MLX90614_Library
+SparkFun_MAX3010x_Pulse_and_Proximity_Sensor_Library
+MySQL_Connector_Arduino
+ESP_DoubleResetDetector
